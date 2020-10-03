@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> [ NO_TITLE ] </title>
+
+   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="jasct.js"></script>
+   <link rel="stylesheet" type="text/css" href="styst.css">
+
+
+ 
+
+</head>
+<body onclick="
+document.getElementById('ab').style.transform = 'rotate(-20deg)';
+">
+<button id="res" onclick="reset()">Clear Editor</button>
+
+<div onclick="document.getElementById('processor').innerHTML='UPDATING...';">
+
+  <center> 
+ 
+<div id="main">
+
+
+ <div id="editor" contenteditable onkeyup="update()">
+  </div>
+</center>
+
+
+
+<br><center>
+	
+<span id="processor"> UPDATING... </span>
+
+<div id="his"> 
+	
+
+<span class="lbl">HISTORY: </span>  <p id="hist"> Nothing to see in history! </p>
+
+ </div>
+<br><br>
+
+ <div id="output"><span class="lbl2">OUTPUT:<img src="a.png" class="a" id="ab"></span> <br><br><br><br><br>
+= ❜𝕆𝕦𝕥𝕡𝕦𝕥❜ 𝕗𝕖𝕒𝕥𝕦𝕣𝕖 𝕚𝕤𝕟❜𝕥 𝕒𝕧𝕒𝕚𝕝𝕒𝕓𝕝𝕖 𝕪𝕖𝕥. =
+
+ </div>
+</div>
+
+</center>
+ 
+ <div id="msg1"><font color="black">You may recover your code from History<br>section </font></div> 
+</body>
+</html>
+
